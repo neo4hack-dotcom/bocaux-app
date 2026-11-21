@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b9bff"/><stop offset="1" stop-color="#007aff"/></linearGradient>
+    <linearGradient id="liq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5fe08a"/><stop offset="1" stop-color="#28b856"/></linearGradient>
+    <clipPath id="jar"><path d="M176 150h160v28c34 14 52 42 52 80v130c0 30-22 52-52 52H176c-30 0-52-22-52-52V258c0-38 18-66 52-80z"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="164" y="104" width="184" height="46" rx="14" fill="#ffd166"/>
+  <path d="M176 150h160v28c34 14 52 42 52 80v130c0 30-22 52-52 52H176c-30 0-52-22-52-52V258c0-38 18-66 52-80z" fill="#ffffff" fill-opacity=".28"/>
+  <g clip-path="url(#jar)"><path d="M100 300c50-22 100 22 156 0s106-22 156 0v200H100z" fill="url(#liq)"/></g>
+  <path d="M176 150h160v28c34 14 52 42 52 80v130c0 30-22 52-52 52H176c-30 0-52-22-52-52V258c0-38 18-66 52-80z" fill="none" stroke="#fff" stroke-width="14" stroke-linejoin="round"/>
+  <text x="256" y="400" font-family="-apple-system,Helvetica,Arial" font-weight="800" font-size="96" text-anchor="middle" fill="#fff">€</text>
+</svg>
